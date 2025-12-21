@@ -18,12 +18,27 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     background-color: var(--bg-dark);
     color: var(--text-main);
     font-family: var(--font-body);
     overflow-x: hidden;
     line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Custom Cursor - Disabled */
